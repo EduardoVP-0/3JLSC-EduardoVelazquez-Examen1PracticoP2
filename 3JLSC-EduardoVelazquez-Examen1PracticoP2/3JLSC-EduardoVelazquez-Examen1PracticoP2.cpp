@@ -42,7 +42,8 @@ int main()
         cout << "Elemento " << pila[cima] << " ubicado en la posicion " << cima << " de la pila" << endl;
         pila.pop_back();
         cima--;
-        cout << "Elemento borrado. Tamano despues de eliminar: " << pila.size() << endl;
+        cout << "Elemento eliminado. Tamano despues de eliminar: " << pila.size() << endl;
+        cout << "\n";
     }
 
     system("PAUSE");
